@@ -18,6 +18,13 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>druid</id>
+			<url>http://central.maven.org/maven2/com/alibaba/druid/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,6 +51,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.1.24</version>
+		</dependency>
+		<!--自启动Druid管理后台-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+			<version>1.1.10</version>
 		</dependency>
 	</dependencies>
 
