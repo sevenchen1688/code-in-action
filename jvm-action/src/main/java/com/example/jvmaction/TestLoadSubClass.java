@@ -1,9 +1,5 @@
 package com.example.jvmaction;
 
-import sun.misc.Launcher;
-
-import javax.sound.midi.SoundbankResource;
-
 public class TestLoadSubClass {
     public static void main(String[] args) {
         System.out.println(B.value);
