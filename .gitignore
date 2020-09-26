@@ -3,3 +3,5 @@ jvm-action/.mvn/
 spring-in-action/.mvn/
 office-demo/.mvn/
 springsource-demo/.mvn/
+japidocs-demo/.mvn/
+japidocs-demo/docs/
