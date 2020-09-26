@@ -8,7 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @Author chenzl
  * @Date 2020/9/26 10:09
  */
-public class InvokeTestBeanFactoryPostProcessorTest {
+public class TestInvokeBeanFactoryPostProcessor {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
     }
