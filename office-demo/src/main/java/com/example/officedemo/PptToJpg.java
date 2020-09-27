@@ -27,7 +27,7 @@ public class PptToJpg {
 
     public static void main(String[] args) {
         // 读入PPT文件
-        File file = new File("C:\\work\\doc\\1.JVM入门.ppt");
+        File file = new File("/Users/sevenchen/doc/1.JVM入门.ppt");
         doPPTtoImage(file);
     }
 
@@ -59,7 +59,7 @@ public class PptToJpg {
                 graphics.fill(new Rectangle2D.Float(0, 0, pgsize.width, pgsize.height));
                 slide[i].draw(graphics);
                 // 这里设置图片的存放路径和图片的格式(jpeg,png,bmp等等),注意生成文件路径
-                File path = new File("C:\\work\\doc\\pptToJpg\\images");
+                File path = new File("/Users/sevenchen/Desktop/Seven的代码实验室/01.JVM基础入门/原素材/images");
                 if (!path.exists()) {
                     path.mkdirs();
                 }
