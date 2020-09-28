@@ -14,7 +14,6 @@ public class ClassLoadTest {
         // 应用加载器 AppClassLoader
         System.out.println(ClassLoadTest.class.getClassLoader());
 
-
         System.out.println("");
 
         // 获取系统ClassLoader
