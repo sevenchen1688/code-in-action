@@ -8,7 +8,7 @@ public class ClassLoadTest {
 
     public static void main(String[] args) {
         // 核心rt.jar中的类加载器 是C++加载的，因此这里为null 
-        System.out.println(String.class.getClassLoader());
+        System.out.println("String类的类加载器：" + String.class.getClassLoader());
         // 扩展包的加载器 ExtClassLoader
         System.out.println(com.sun.crypto.provider.DESKeyFactory.class.getClassLoader());
         // 应用加载器 AppClassLoader
